@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Projects/thread_web_server/Jacobi.h
+omp.h
+-
+iostream
+-
+vector
+-
+cmath
+-
+matrix.h
+/cygdrive/c/Projects/thread_web_server/matrix.h
+
+/cygdrive/c/Projects/thread_web_server/OpenMP_1.cpp
+Jacobi.h
+/cygdrive/c/Projects/thread_web_server/Jacobi.h
+iterator
+-
+
+/cygdrive/c/Projects/thread_web_server/matrix.cpp
+matrix.h
+/cygdrive/c/Projects/thread_web_server/matrix.h
+
+/cygdrive/c/Projects/thread_web_server/matrix.h
+vector
+-
+matrix.cpp
+/cygdrive/c/Projects/thread_web_server/matrix.cpp
+
