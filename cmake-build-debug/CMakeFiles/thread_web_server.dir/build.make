@@ -57,29 +57,28 @@ include CMakeFiles/thread_web_server.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/thread_web_server.dir/flags.make
 
-CMakeFiles/thread_web_server.dir/OpenMP_1.cpp.o: CMakeFiles/thread_web_server.dir/flags.make
-CMakeFiles/thread_web_server.dir/OpenMP_1.cpp.o: ../OpenMP_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/thread_web_server.dir/OpenMP_1.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/thread_web_server.dir/OpenMP_1.cpp.o -c /cygdrive/c/Projects/thread_web_server/OpenMP_1.cpp
+CMakeFiles/thread_web_server.dir/MPI.cpp.o: CMakeFiles/thread_web_server.dir/flags.make
+CMakeFiles/thread_web_server.dir/MPI.cpp.o: ../MPI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/thread_web_server.dir/MPI.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/thread_web_server.dir/MPI.cpp.o -c /cygdrive/c/Projects/thread_web_server/MPI.cpp
 
-CMakeFiles/thread_web_server.dir/OpenMP_1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/thread_web_server.dir/OpenMP_1.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Projects/thread_web_server/OpenMP_1.cpp > CMakeFiles/thread_web_server.dir/OpenMP_1.cpp.i
+CMakeFiles/thread_web_server.dir/MPI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/thread_web_server.dir/MPI.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Projects/thread_web_server/MPI.cpp > CMakeFiles/thread_web_server.dir/MPI.cpp.i
 
-CMakeFiles/thread_web_server.dir/OpenMP_1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/thread_web_server.dir/OpenMP_1.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Projects/thread_web_server/OpenMP_1.cpp -o CMakeFiles/thread_web_server.dir/OpenMP_1.cpp.s
+CMakeFiles/thread_web_server.dir/MPI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/thread_web_server.dir/MPI.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Projects/thread_web_server/MPI.cpp -o CMakeFiles/thread_web_server.dir/MPI.cpp.s
 
 # Object files for target thread_web_server
 thread_web_server_OBJECTS = \
-"CMakeFiles/thread_web_server.dir/OpenMP_1.cpp.o"
+"CMakeFiles/thread_web_server.dir/MPI.cpp.o"
 
 # External object files for target thread_web_server
 thread_web_server_EXTERNAL_OBJECTS =
 
-thread_web_server.exe: CMakeFiles/thread_web_server.dir/OpenMP_1.cpp.o
+thread_web_server.exe: CMakeFiles/thread_web_server.dir/MPI.cpp.o
 thread_web_server.exe: CMakeFiles/thread_web_server.dir/build.make
-thread_web_server.exe: /usr/lib/gcc/x86_64-pc-cygwin/9.3.0/libgomp.dll.a
 thread_web_server.exe: CMakeFiles/thread_web_server.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable thread_web_server.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/thread_web_server.dir/link.txt --verbose=$(VERBOSE)

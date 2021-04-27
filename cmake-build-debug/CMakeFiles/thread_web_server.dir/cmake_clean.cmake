@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/thread_web_server.dir/OpenMP_1.cpp.o"
+  "CMakeFiles/thread_web_server.dir/MPI.cpp.o"
   "libthread_web_server.dll.a"
   "thread_web_server.exe"
   "thread_web_server.pdb"

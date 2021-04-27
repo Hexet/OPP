@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/c/Projects/thread_web_server/OpenMP_1.cpp" "/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/thread_web_server.dir/OpenMP_1.cpp.o"
+  "/cygdrive/c/Projects/thread_web_server/MPI.cpp" "/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/thread_web_server.dir/MPI.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -6,31 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Projects/thread_web_server/Jacobi.h
-omp.h
--
+/cygdrive/c/Projects/thread_web_server/MPI.cpp
+mpi.h
+/cygdrive/c/Projects/thread_web_server/mpi.h
 iostream
 -
-vector
+string
 -
-cmath
+fstream
 -
-matrix.h
-/cygdrive/c/Projects/thread_web_server/matrix.h
-
-/cygdrive/c/Projects/thread_web_server/OpenMP_1.cpp
-Jacobi.h
-/cygdrive/c/Projects/thread_web_server/Jacobi.h
-iterator
+stdlib.h
 -
-
-/cygdrive/c/Projects/thread_web_server/matrix.cpp
-matrix.h
-/cygdrive/c/Projects/thread_web_server/matrix.h
-
-/cygdrive/c/Projects/thread_web_server/matrix.h
-vector
--
-matrix.cpp
-/cygdrive/c/Projects/thread_web_server/matrix.cpp
 

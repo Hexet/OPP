@@ -1,4 +1,6 @@
 C:\Users\Admin\.CLion2019.3\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Projects/thread_web_server
+-- Could NOT find MPI_CXX (missing: MPI_mpi_cxx_LIBRARY MPI_CXX_WORKS) 
+-- Could NOT find MPI (missing: MPI_CXX_FOUND) (found version "3.1")
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /cygdrive/c/Projects/thread_web_server/cmake-build-debug

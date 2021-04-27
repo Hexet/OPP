@@ -4,9 +4,12 @@
 int main()
 {
     const int size  = 3;
-    QSMatrix<double> A(size, size, 0.0);
+    QSMatrix<double> A(size, size, 0);
     std::vector<double> F(size);
     std::vector<double> X(size);
+
+//    for (int i = 0; i < size; i++)
+//        F[i] = i;
 
     A(0, 0) = 10;
     A(0, 1) = 1;
@@ -24,7 +27,7 @@ int main()
     F[1] = 10;
     F[2] = 10;
 
-    Jacobi jcb (10, 1e-3);
+    Jacobi jcb (100, 1e-3);
 
     X = jcb.StartSolver(A, F);
 

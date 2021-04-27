@@ -1,0 +1,492 @@
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe cmTC_c475b/fast && /usr/bin/make -f CMakeFiles/cmTC_c475b.dir/build.make CMakeFiles/cmTC_c475b.dir/build
+make[1]: Entering directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c475b.dir/test_mpi.cpp.o
+/usr/bin/c++.exe    -fexceptions -o CMakeFiles/cmTC_c475b.dir/test_mpi.cpp.o -c /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp
+Linking CXX executable cmTC_c475b.exe
+/cygdrive/c/Users/Admin/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_c475b.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_c475b.dir/test_mpi.cpp.o  -o cmTC_c475b.exe -Wl,--out-implib,libcmTC_c475b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -lMPI_mpi_cxx_LIBRARY-NOTFOUND /usr/lib/libmpi.dll.a /usr/lib/libopen-rte.dll.a /usr/lib/libopen-pal.dll.a /usr/lib/libm.a /usr/lib/w32api/libgdi32.a 
+/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../x86_64-pc-cygwin/bin/ld: cannot find -lMPI_mpi_cxx_LIBRARY-NOTFOUND
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_c475b.dir/build.make:92: cmTC_c475b.exe] Error 1
+make[1]: Leaving directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_c475b/fast] Error 2
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe cmTC_ec3f6/fast && /usr/bin/make -f CMakeFiles/cmTC_ec3f6.dir/build.make CMakeFiles/cmTC_ec3f6.dir/build
+make[1]: Entering directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ec3f6.dir/test_mpi.cpp.o
+/usr/bin/c++.exe    -fexceptions -o CMakeFiles/cmTC_ec3f6.dir/test_mpi.cpp.o -c /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp
+Linking CXX executable cmTC_ec3f6.exe
+/cygdrive/c/Users/Admin/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_ec3f6.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_ec3f6.dir/test_mpi.cpp.o  -o cmTC_ec3f6.exe -Wl,--out-implib,libcmTC_ec3f6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -lMPI_mpi_cxx_LIBRARY-NOTFOUND /usr/lib/libmpi.dll.a /usr/lib/libopen-rte.dll.a /usr/lib/libopen-pal.dll.a /usr/lib/libm.a /usr/lib/w32api/libgdi32.a 
+/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../x86_64-pc-cygwin/bin/ld: cannot find -lMPI_mpi_cxx_LIBRARY-NOTFOUND
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_ec3f6.dir/build.make:92: cmTC_ec3f6.exe] Error 1
+make[1]: Leaving directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_ec3f6/fast] Error 2
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe cmTC_fa5e1/fast && /usr/bin/make -f CMakeFiles/cmTC_fa5e1.dir/build.make CMakeFiles/cmTC_fa5e1.dir/build
+make[1]: Entering directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fa5e1.dir/test_mpi.cpp.o
+/usr/bin/c++.exe    -fexceptions -o CMakeFiles/cmTC_fa5e1.dir/test_mpi.cpp.o -c /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp
+Linking CXX executable cmTC_fa5e1.exe
+/cygdrive/c/Users/Admin/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_fa5e1.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_fa5e1.dir/test_mpi.cpp.o  -o cmTC_fa5e1.exe -Wl,--out-implib,libcmTC_fa5e1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -lMPI_mpi_cxx_LIBRARY-NOTFOUND /usr/lib/libmpi.dll.a /usr/lib/libopen-rte.dll.a /usr/lib/libopen-pal.dll.a /usr/lib/libm.a /usr/lib/w32api/libgdi32.a 
+/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../x86_64-pc-cygwin/bin/ld: cannot find -lMPI_mpi_cxx_LIBRARY-NOTFOUND
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_fa5e1.dir/build.make:92: cmTC_fa5e1.exe] Error 1
+make[1]: Leaving directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_fa5e1/fast] Error 2
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe cmTC_6da55/fast && /usr/bin/make -f CMakeFiles/cmTC_6da55.dir/build.make CMakeFiles/cmTC_6da55.dir/build
+make[1]: Entering directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6da55.dir/test_mpi.cpp.o
+/usr/bin/c++.exe    -fexceptions -o CMakeFiles/cmTC_6da55.dir/test_mpi.cpp.o -c /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp
+Linking CXX executable cmTC_6da55.exe
+/cygdrive/c/Users/Admin/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_6da55.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_6da55.dir/test_mpi.cpp.o  -o cmTC_6da55.exe -Wl,--out-implib,libcmTC_6da55.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -lMPI_mpi_cxx_LIBRARY-NOTFOUND /usr/lib/libmpi.dll.a /usr/lib/libopen-rte.dll.a /usr/lib/libopen-pal.dll.a /usr/lib/libm.a /usr/lib/w32api/libgdi32.a 
+/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../x86_64-pc-cygwin/bin/ld: cannot find -lMPI_mpi_cxx_LIBRARY-NOTFOUND
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_6da55.dir/build.make:92: cmTC_6da55.exe] Error 1
+make[1]: Leaving directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_6da55/fast] Error 2
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe cmTC_2ad23/fast && /usr/bin/make -f CMakeFiles/cmTC_2ad23.dir/build.make CMakeFiles/cmTC_2ad23.dir/build
+make[1]: Entering directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2ad23.dir/test_mpi.cpp.o
+/usr/bin/c++.exe    -fexceptions -o CMakeFiles/cmTC_2ad23.dir/test_mpi.cpp.o -c /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp
+Linking CXX executable cmTC_2ad23.exe
+/cygdrive/c/Users/Admin/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_2ad23.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_2ad23.dir/test_mpi.cpp.o  -o cmTC_2ad23.exe -Wl,--out-implib,libcmTC_2ad23.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -lMPI_mpi_cxx_LIBRARY-NOTFOUND /usr/lib/libmpi.dll.a /usr/lib/libopen-rte.dll.a /usr/lib/libopen-pal.dll.a /usr/lib/libm.a /usr/lib/w32api/libgdi32.a 
+/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../x86_64-pc-cygwin/bin/ld: cannot find -lMPI_mpi_cxx_LIBRARY-NOTFOUND
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_2ad23.dir/build.make:92: cmTC_2ad23.exe] Error 1
+make[1]: Leaving directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_2ad23/fast] Error 2
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe cmTC_d98b4/fast && /usr/bin/make -f CMakeFiles/cmTC_d98b4.dir/build.make CMakeFiles/cmTC_d98b4.dir/build
+make[1]: Entering directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d98b4.dir/test_mpi.cpp.o
+/usr/bin/c++.exe    -fexceptions -o CMakeFiles/cmTC_d98b4.dir/test_mpi.cpp.o -c /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp
+Linking CXX executable cmTC_d98b4.exe
+/cygdrive/c/Users/Admin/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_d98b4.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_d98b4.dir/test_mpi.cpp.o  -o cmTC_d98b4.exe -Wl,--out-implib,libcmTC_d98b4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -lMPI_mpi_cxx_LIBRARY-NOTFOUND /usr/lib/libmpi.dll.a /usr/lib/libopen-rte.dll.a /usr/lib/libopen-pal.dll.a /usr/lib/libm.a /usr/lib/w32api/libgdi32.a 
+/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../x86_64-pc-cygwin/bin/ld: cannot find -lMPI_mpi_cxx_LIBRARY-NOTFOUND
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_d98b4.dir/build.make:92: cmTC_d98b4.exe] Error 1
+make[1]: Leaving directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_d98b4/fast] Error 2
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe cmTC_7e49a/fast && /usr/bin/make -f CMakeFiles/cmTC_7e49a.dir/build.make CMakeFiles/cmTC_7e49a.dir/build
+make[1]: Entering directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7e49a.dir/test_mpi.cpp.o
+/usr/bin/c++.exe    -fexceptions -o CMakeFiles/cmTC_7e49a.dir/test_mpi.cpp.o -c /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp
+Linking CXX executable cmTC_7e49a.exe
+/cygdrive/c/Users/Admin/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_7e49a.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_7e49a.dir/test_mpi.cpp.o  -o cmTC_7e49a.exe -Wl,--out-implib,libcmTC_7e49a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -lMPI_mpi_cxx_LIBRARY-NOTFOUND /usr/lib/libmpi.dll.a /usr/lib/libopen-rte.dll.a /usr/lib/libopen-pal.dll.a /usr/lib/libm.a /usr/lib/w32api/libgdi32.a 
+/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../x86_64-pc-cygwin/bin/ld: cannot find -lMPI_mpi_cxx_LIBRARY-NOTFOUND
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_7e49a.dir/build.make:92: cmTC_7e49a.exe] Error 1
+make[1]: Leaving directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_7e49a/fast] Error 2
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe cmTC_befa1/fast && /usr/bin/make -f CMakeFiles/cmTC_befa1.dir/build.make CMakeFiles/cmTC_befa1.dir/build
+make[1]: Entering directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_befa1.dir/test_mpi.cpp.o
+/usr/bin/c++.exe    -fexceptions -o CMakeFiles/cmTC_befa1.dir/test_mpi.cpp.o -c /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp
+Linking CXX executable cmTC_befa1.exe
+/cygdrive/c/Users/Admin/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_befa1.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_befa1.dir/test_mpi.cpp.o  -o cmTC_befa1.exe -Wl,--out-implib,libcmTC_befa1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -lMPI_mpi_cxx_LIBRARY-NOTFOUND /usr/lib/libmpi.dll.a /usr/lib/libopen-rte.dll.a /usr/lib/libopen-pal.dll.a /usr/lib/libm.a /usr/lib/w32api/libgdi32.a 
+/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../x86_64-pc-cygwin/bin/ld: cannot find -lMPI_mpi_cxx_LIBRARY-NOTFOUND
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_befa1.dir/build.make:92: cmTC_befa1.exe] Error 1
+make[1]: Leaving directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_befa1/fast] Error 2
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe cmTC_45241/fast && /usr/bin/make -f CMakeFiles/cmTC_45241.dir/build.make CMakeFiles/cmTC_45241.dir/build
+make[1]: Entering directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_45241.dir/test_mpi.cpp.o
+/usr/bin/c++.exe    -fexceptions -o CMakeFiles/cmTC_45241.dir/test_mpi.cpp.o -c /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp
+Linking CXX executable cmTC_45241.exe
+/cygdrive/c/Users/Admin/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_45241.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_45241.dir/test_mpi.cpp.o  -o cmTC_45241.exe -Wl,--out-implib,libcmTC_45241.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -lMPI_mpi_cxx_LIBRARY-NOTFOUND /usr/lib/libmpi.dll.a /usr/lib/libopen-rte.dll.a /usr/lib/libopen-pal.dll.a /usr/lib/libm.a /usr/lib/w32api/libgdi32.a 
+/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../x86_64-pc-cygwin/bin/ld: cannot find -lMPI_mpi_cxx_LIBRARY-NOTFOUND
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_45241.dir/build.make:92: cmTC_45241.exe] Error 1
+make[1]: Leaving directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_45241/fast] Error 2
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe cmTC_48208/fast && /usr/bin/make -f CMakeFiles/cmTC_48208.dir/build.make CMakeFiles/cmTC_48208.dir/build
+make[1]: Entering directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_48208.dir/test_mpi.cpp.o
+/usr/bin/c++.exe    -fexceptions -o CMakeFiles/cmTC_48208.dir/test_mpi.cpp.o -c /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp
+Linking CXX executable cmTC_48208.exe
+/cygdrive/c/Users/Admin/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_48208.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_48208.dir/test_mpi.cpp.o  -o cmTC_48208.exe -Wl,--out-implib,libcmTC_48208.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -lMPI_mpi_cxx_LIBRARY-NOTFOUND /usr/lib/libmpi.dll.a /usr/lib/libopen-rte.dll.a /usr/lib/libopen-pal.dll.a /usr/lib/libm.a /usr/lib/w32api/libgdi32.a 
+/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../x86_64-pc-cygwin/bin/ld: cannot find -lMPI_mpi_cxx_LIBRARY-NOTFOUND
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_48208.dir/build.make:92: cmTC_48208.exe] Error 1
+make[1]: Leaving directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_48208/fast] Error 2
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe cmTC_7cb86/fast && /usr/bin/make -f CMakeFiles/cmTC_7cb86.dir/build.make CMakeFiles/cmTC_7cb86.dir/build
+make[1]: Entering directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7cb86.dir/test_mpi.cpp.o
+/usr/bin/c++.exe    -fexceptions -o CMakeFiles/cmTC_7cb86.dir/test_mpi.cpp.o -c /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp
+Linking CXX executable cmTC_7cb86.exe
+/cygdrive/c/Users/Admin/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_7cb86.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_7cb86.dir/test_mpi.cpp.o  -o cmTC_7cb86.exe -Wl,--out-implib,libcmTC_7cb86.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -lMPI_mpi_cxx_LIBRARY-NOTFOUND /usr/lib/libmpi.dll.a /usr/lib/libopen-rte.dll.a /usr/lib/libopen-pal.dll.a /usr/lib/libm.a /usr/lib/w32api/libgdi32.a 
+/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../x86_64-pc-cygwin/bin/ld: cannot find -lMPI_mpi_cxx_LIBRARY-NOTFOUND
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_7cb86.dir/build.make:92: cmTC_7cb86.exe] Error 1
+make[1]: Leaving directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_7cb86/fast] Error 2
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe cmTC_db2d7/fast && /usr/bin/make -f CMakeFiles/cmTC_db2d7.dir/build.make CMakeFiles/cmTC_db2d7.dir/build
+make[1]: Entering directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_db2d7.dir/test_mpi.cpp.o
+/usr/bin/c++.exe    -fexceptions -o CMakeFiles/cmTC_db2d7.dir/test_mpi.cpp.o -c /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp
+Linking CXX executable cmTC_db2d7.exe
+/cygdrive/c/Users/Admin/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_db2d7.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_db2d7.dir/test_mpi.cpp.o  -o cmTC_db2d7.exe -Wl,--out-implib,libcmTC_db2d7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -lMPI_mpi_cxx_LIBRARY-NOTFOUND /usr/lib/libmpi.dll.a /usr/lib/libopen-rte.dll.a /usr/lib/libopen-pal.dll.a /usr/lib/libm.a /usr/lib/w32api/libgdi32.a 
+/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../x86_64-pc-cygwin/bin/ld: cannot find -lMPI_mpi_cxx_LIBRARY-NOTFOUND
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_db2d7.dir/build.make:92: cmTC_db2d7.exe] Error 1
+make[1]: Leaving directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_db2d7/fast] Error 2
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe cmTC_7f359/fast && /usr/bin/make -f CMakeFiles/cmTC_7f359.dir/build.make CMakeFiles/cmTC_7f359.dir/build
+make[1]: Entering directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7f359.dir/test_mpi.cpp.o
+/usr/bin/c++.exe    -fexceptions -o CMakeFiles/cmTC_7f359.dir/test_mpi.cpp.o -c /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp
+Linking CXX executable cmTC_7f359.exe
+/cygdrive/c/Users/Admin/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_7f359.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_7f359.dir/test_mpi.cpp.o  -o cmTC_7f359.exe -Wl,--out-implib,libcmTC_7f359.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -lMPI_mpi_cxx_LIBRARY-NOTFOUND /usr/lib/libmpi.dll.a /usr/lib/libopen-rte.dll.a /usr/lib/libopen-pal.dll.a /usr/lib/libm.a /usr/lib/w32api/libgdi32.a 
+/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../x86_64-pc-cygwin/bin/ld: cannot find -lMPI_mpi_cxx_LIBRARY-NOTFOUND
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_7f359.dir/build.make:92: cmTC_7f359.exe] Error 1
+make[1]: Leaving directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_7f359/fast] Error 2
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe cmTC_3d529/fast && /usr/bin/make -f CMakeFiles/cmTC_3d529.dir/build.make CMakeFiles/cmTC_3d529.dir/build
+make[1]: Entering directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3d529.dir/test_mpi.cpp.o
+/usr/bin/c++.exe    -fexceptions -o CMakeFiles/cmTC_3d529.dir/test_mpi.cpp.o -c /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp
+Linking CXX executable cmTC_3d529.exe
+/cygdrive/c/Users/Admin/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_3d529.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_3d529.dir/test_mpi.cpp.o  -o cmTC_3d529.exe -Wl,--out-implib,libcmTC_3d529.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -lMPI_mpi_cxx_LIBRARY-NOTFOUND /usr/lib/libmpi.dll.a /usr/lib/libopen-rte.dll.a /usr/lib/libopen-pal.dll.a /usr/lib/libm.a /usr/lib/w32api/libgdi32.a 
+/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../x86_64-pc-cygwin/bin/ld: cannot find -lMPI_mpi_cxx_LIBRARY-NOTFOUND
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_3d529.dir/build.make:92: cmTC_3d529.exe] Error 1
+make[1]: Leaving directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_3d529/fast] Error 2
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe cmTC_4155b/fast && /usr/bin/make -f CMakeFiles/cmTC_4155b.dir/build.make CMakeFiles/cmTC_4155b.dir/build
+make[1]: Entering directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4155b.dir/test_mpi.cpp.o
+/usr/bin/c++.exe    -fexceptions -o CMakeFiles/cmTC_4155b.dir/test_mpi.cpp.o -c /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp
+Linking CXX executable cmTC_4155b.exe
+/cygdrive/c/Users/Admin/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_4155b.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_4155b.dir/test_mpi.cpp.o  -o cmTC_4155b.exe -Wl,--out-implib,libcmTC_4155b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -lMPI_mpi_cxx_LIBRARY-NOTFOUND /usr/lib/libmpi.dll.a /usr/lib/libopen-rte.dll.a /usr/lib/libopen-pal.dll.a /usr/lib/libm.a /usr/lib/w32api/libgdi32.a 
+/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../x86_64-pc-cygwin/bin/ld: cannot find -lMPI_mpi_cxx_LIBRARY-NOTFOUND
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_4155b.dir/build.make:92: cmTC_4155b.exe] Error 1
+make[1]: Leaving directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_4155b/fast] Error 2
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe cmTC_cc242/fast && /usr/bin/make -f CMakeFiles/cmTC_cc242.dir/build.make CMakeFiles/cmTC_cc242.dir/build
+make[1]: Entering directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cc242.dir/test_mpi.cpp.o
+/usr/bin/c++.exe    -fexceptions -o CMakeFiles/cmTC_cc242.dir/test_mpi.cpp.o -c /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp
+Linking CXX executable cmTC_cc242.exe
+/cygdrive/c/Users/Admin/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_cc242.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_cc242.dir/test_mpi.cpp.o  -o cmTC_cc242.exe -Wl,--out-implib,libcmTC_cc242.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -lMPI_mpi_cxx_LIBRARY-NOTFOUND /usr/lib/libmpi.dll.a /usr/lib/libopen-rte.dll.a /usr/lib/libopen-pal.dll.a /usr/lib/libm.a /usr/lib/w32api/libgdi32.a 
+/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../x86_64-pc-cygwin/bin/ld: cannot find -lMPI_mpi_cxx_LIBRARY-NOTFOUND
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_cc242.dir/build.make:92: cmTC_cc242.exe] Error 1
+make[1]: Leaving directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_cc242/fast] Error 2
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe cmTC_8fca8/fast && /usr/bin/make -f CMakeFiles/cmTC_8fca8.dir/build.make CMakeFiles/cmTC_8fca8.dir/build
+make[1]: Entering directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8fca8.dir/test_mpi.cpp.o
+/usr/bin/c++.exe    -fexceptions -o CMakeFiles/cmTC_8fca8.dir/test_mpi.cpp.o -c /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp
+Linking CXX executable cmTC_8fca8.exe
+/cygdrive/c/Users/Admin/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_8fca8.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_8fca8.dir/test_mpi.cpp.o  -o cmTC_8fca8.exe -Wl,--out-implib,libcmTC_8fca8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -lMPI_mpi_cxx_LIBRARY-NOTFOUND /usr/lib/libmpi.dll.a /usr/lib/libopen-rte.dll.a /usr/lib/libopen-pal.dll.a /usr/lib/libm.a /usr/lib/w32api/libgdi32.a 
+/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../x86_64-pc-cygwin/bin/ld: cannot find -lMPI_mpi_cxx_LIBRARY-NOTFOUND
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_8fca8.dir/build.make:92: cmTC_8fca8.exe] Error 1
+make[1]: Leaving directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_8fca8/fast] Error 2
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe cmTC_ac3a2/fast && /usr/bin/make -f CMakeFiles/cmTC_ac3a2.dir/build.make CMakeFiles/cmTC_ac3a2.dir/build
+make[1]: Entering directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ac3a2.dir/test_mpi.cpp.o
+/usr/bin/c++.exe    -fexceptions -o CMakeFiles/cmTC_ac3a2.dir/test_mpi.cpp.o -c /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp
+Linking CXX executable cmTC_ac3a2.exe
+/cygdrive/c/Users/Admin/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_ac3a2.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_ac3a2.dir/test_mpi.cpp.o  -o cmTC_ac3a2.exe -Wl,--out-implib,libcmTC_ac3a2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -lMPI_mpi_cxx_LIBRARY-NOTFOUND /usr/lib/libmpi.dll.a /usr/lib/libopen-rte.dll.a /usr/lib/libopen-pal.dll.a /usr/lib/libm.a /usr/lib/w32api/libgdi32.a 
+/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../x86_64-pc-cygwin/bin/ld: cannot find -lMPI_mpi_cxx_LIBRARY-NOTFOUND
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_ac3a2.dir/build.make:92: cmTC_ac3a2.exe] Error 1
+make[1]: Leaving directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_ac3a2/fast] Error 2
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe cmTC_98331/fast && /usr/bin/make -f CMakeFiles/cmTC_98331.dir/build.make CMakeFiles/cmTC_98331.dir/build
+make[1]: Entering directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_98331.dir/test_mpi.cpp.o
+/usr/bin/c++.exe    -fexceptions -o CMakeFiles/cmTC_98331.dir/test_mpi.cpp.o -c /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp
+Linking CXX executable cmTC_98331.exe
+/cygdrive/c/Users/Admin/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_98331.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_98331.dir/test_mpi.cpp.o  -o cmTC_98331.exe -Wl,--out-implib,libcmTC_98331.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -lMPI_mpi_cxx_LIBRARY-NOTFOUND /usr/lib/libmpi.dll.a /usr/lib/libopen-rte.dll.a /usr/lib/libopen-pal.dll.a /usr/lib/libm.a /usr/lib/w32api/libgdi32.a 
+/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../x86_64-pc-cygwin/bin/ld: cannot find -lMPI_mpi_cxx_LIBRARY-NOTFOUND
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_98331.dir/build.make:92: cmTC_98331.exe] Error 1
+make[1]: Leaving directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_98331/fast] Error 2
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe cmTC_c4a27/fast && /usr/bin/make -f CMakeFiles/cmTC_c4a27.dir/build.make CMakeFiles/cmTC_c4a27.dir/build
+make[1]: Entering directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c4a27.dir/test_mpi.cpp.o
+/usr/bin/c++.exe    -fexceptions -o CMakeFiles/cmTC_c4a27.dir/test_mpi.cpp.o -c /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp
+Linking CXX executable cmTC_c4a27.exe
+/cygdrive/c/Users/Admin/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_c4a27.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_c4a27.dir/test_mpi.cpp.o  -o cmTC_c4a27.exe -Wl,--out-implib,libcmTC_c4a27.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -lMPI_mpi_cxx_LIBRARY-NOTFOUND /usr/lib/libmpi.dll.a /usr/lib/libopen-rte.dll.a /usr/lib/libopen-pal.dll.a /usr/lib/libm.a /usr/lib/w32api/libgdi32.a 
+/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../x86_64-pc-cygwin/bin/ld: cannot find -lMPI_mpi_cxx_LIBRARY-NOTFOUND
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_c4a27.dir/build.make:92: cmTC_c4a27.exe] Error 1
+make[1]: Leaving directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_c4a27/fast] Error 2
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe cmTC_a2d6e/fast && make[1]: Entering directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a2d6e.dir/build.make CMakeFiles/cmTC_a2d6e.dir/build
+make[2]: Entering directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a2d6e.dir/test_mpi.cpp.o
+/usr/bin/c++.exe    -fexceptions -o CMakeFiles/cmTC_a2d6e.dir/test_mpi.cpp.o -c /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp
+Linking CXX executable cmTC_a2d6e.exe
+/cygdrive/c/Users/Admin/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_a2d6e.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_a2d6e.dir/test_mpi.cpp.o  -o cmTC_a2d6e.exe -Wl,--out-implib,libcmTC_a2d6e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -lMPI_mpi_cxx_LIBRARY-NOTFOUND /usr/lib/libmpi.dll.a /usr/lib/libopen-rte.dll.a /usr/lib/libopen-pal.dll.a /usr/lib/libm.a /usr/lib/w32api/libgdi32.a 
+/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../x86_64-pc-cygwin/bin/ld: cannot find -lMPI_mpi_cxx_LIBRARY-NOTFOUND
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_a2d6e.dir/build.make:92: cmTC_a2d6e.exe] Error 1
+make[2]: Leaving directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_a2d6e/fast] Error 2
+make[1]: Leaving directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe cmTC_871c0/fast && /usr/bin/make -f CMakeFiles/cmTC_871c0.dir/build.make CMakeFiles/cmTC_871c0.dir/build
+make[1]: Entering directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_871c0.dir/test_mpi.cpp.o
+/usr/bin/c++.exe    -fexceptions -o CMakeFiles/cmTC_871c0.dir/test_mpi.cpp.o -c /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp
+Linking CXX executable cmTC_871c0.exe
+/cygdrive/c/Users/Admin/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_871c0.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_871c0.dir/test_mpi.cpp.o  -o cmTC_871c0.exe -Wl,--out-implib,libcmTC_871c0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -lMPI_mpi_cxx_LIBRARY-NOTFOUND /usr/lib/libmpi.dll.a /usr/lib/libopen-rte.dll.a /usr/lib/libopen-pal.dll.a /usr/lib/libm.a /usr/lib/w32api/libgdi32.a 
+/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../x86_64-pc-cygwin/bin/ld: cannot find -lMPI_mpi_cxx_LIBRARY-NOTFOUND
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_871c0.dir/build.make:92: cmTC_871c0.exe] Error 1
+make[1]: Leaving directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_871c0/fast] Error 2
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe cmTC_eabdf/fast && make[1]: Entering directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_eabdf.dir/build.make CMakeFiles/cmTC_eabdf.dir/build
+make[2]: Entering directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_eabdf.dir/test_mpi.cpp.o
+/usr/bin/c++.exe    -fexceptions -o CMakeFiles/cmTC_eabdf.dir/test_mpi.cpp.o -c /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp
+Linking CXX executable cmTC_eabdf.exe
+/cygdrive/c/Users/Admin/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_eabdf.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_eabdf.dir/test_mpi.cpp.o  -o cmTC_eabdf.exe -Wl,--out-implib,libcmTC_eabdf.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -lMPI_mpi_cxx_LIBRARY-NOTFOUND /usr/lib/libmpi.dll.a /usr/lib/libopen-rte.dll.a /usr/lib/libopen-pal.dll.a /usr/lib/libm.a /usr/lib/w32api/libgdi32.a 
+/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../x86_64-pc-cygwin/bin/ld: cannot find -lMPI_mpi_cxx_LIBRARY-NOTFOUND
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_eabdf.dir/build.make:92: cmTC_eabdf.exe] Error 1
+make[2]: Leaving directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_eabdf/fast] Error 2
+make[1]: Leaving directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe cmTC_ea0ea/fast && /usr/bin/make -f CMakeFiles/cmTC_ea0ea.dir/build.make CMakeFiles/cmTC_ea0ea.dir/build
+make[1]: Entering directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ea0ea.dir/test_mpi.cpp.o
+/usr/bin/c++.exe    -fexceptions -o CMakeFiles/cmTC_ea0ea.dir/test_mpi.cpp.o -c /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp
+Linking CXX executable cmTC_ea0ea.exe
+/cygdrive/c/Users/Admin/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_ea0ea.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_ea0ea.dir/test_mpi.cpp.o  -o cmTC_ea0ea.exe -Wl,--out-implib,libcmTC_ea0ea.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -lMPI_mpi_cxx_LIBRARY-NOTFOUND /usr/lib/libmpi.dll.a /usr/lib/libopen-rte.dll.a /usr/lib/libopen-pal.dll.a /usr/lib/libm.a /usr/lib/w32api/libgdi32.a 
+/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../x86_64-pc-cygwin/bin/ld: cannot find -lMPI_mpi_cxx_LIBRARY-NOTFOUND
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_ea0ea.dir/build.make:92: cmTC_ea0ea.exe] Error 1
+make[1]: Leaving directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_ea0ea/fast] Error 2
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe cmTC_67430/fast && /usr/bin/make -f CMakeFiles/cmTC_67430.dir/build.make CMakeFiles/cmTC_67430.dir/build
+make[1]: Entering directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_67430.dir/test_mpi.cpp.o
+/usr/bin/c++.exe    -fexceptions -o CMakeFiles/cmTC_67430.dir/test_mpi.cpp.o -c /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp
+Linking CXX executable cmTC_67430.exe
+/cygdrive/c/Users/Admin/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_67430.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_67430.dir/test_mpi.cpp.o  -o cmTC_67430.exe -Wl,--out-implib,libcmTC_67430.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -lMPI_mpi_cxx_LIBRARY-NOTFOUND /usr/lib/libmpi.dll.a /usr/lib/libopen-rte.dll.a /usr/lib/libopen-pal.dll.a /usr/lib/libm.a /usr/lib/w32api/libgdi32.a 
+/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../x86_64-pc-cygwin/bin/ld: cannot find -lMPI_mpi_cxx_LIBRARY-NOTFOUND
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_67430.dir/build.make:92: cmTC_67430.exe] Error 1
+make[1]: Leaving directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_67430/fast] Error 2
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe cmTC_bf7b7/fast && /usr/bin/make -f CMakeFiles/cmTC_bf7b7.dir/build.make CMakeFiles/cmTC_bf7b7.dir/build
+make[1]: Entering directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bf7b7.dir/test_mpi.cpp.o
+/usr/bin/c++.exe    -fexceptions -o CMakeFiles/cmTC_bf7b7.dir/test_mpi.cpp.o -c /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp
+Linking CXX executable cmTC_bf7b7.exe
+/cygdrive/c/Users/Admin/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_bf7b7.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_bf7b7.dir/test_mpi.cpp.o  -o cmTC_bf7b7.exe -Wl,--out-implib,libcmTC_bf7b7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -lMPI_mpi_cxx_LIBRARY-NOTFOUND /usr/lib/libmpi.dll.a /usr/lib/libopen-rte.dll.a /usr/lib/libopen-pal.dll.a /usr/lib/libm.a /usr/lib/w32api/libgdi32.a 
+/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/ld: cannot find -lMPI_mpi_cxx_LIBRARY-NOTFOUND
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_bf7b7.dir/build.make:92: cmTC_bf7b7.exe] Error 1
+make[1]: Leaving directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_bf7b7/fast] Error 2
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe cmTC_dee97/fast && make[1]: Entering directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_dee97.dir/build.make CMakeFiles/cmTC_dee97.dir/build
+make[2]: Entering directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dee97.dir/test_mpi.cpp.o
+/usr/bin/c++.exe    -fexceptions -o CMakeFiles/cmTC_dee97.dir/test_mpi.cpp.o -c /cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp
+Linking CXX executable cmTC_dee97.exe
+/cygdrive/c/Users/Admin/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_dee97.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_dee97.dir/test_mpi.cpp.o  -o cmTC_dee97.exe -Wl,--out-implib,libcmTC_dee97.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -lMPI_mpi_cxx_LIBRARY-NOTFOUND /usr/lib/libmpi.dll.a /usr/lib/libopen-rte.dll.a /usr/lib/libopen-pal.dll.a /usr/lib/libm.a /usr/lib/w32api/libgdi32.a 
+/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/ld: cannot find -lMPI_mpi_cxx_LIBRARY-NOTFOUND
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_dee97.dir/build.make:92: cmTC_dee97.exe] Error 1
+make[2]: Leaving directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_dee97/fast] Error 2
+make[1]: Leaving directory '/cygdrive/c/Projects/thread_web_server/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+

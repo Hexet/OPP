@@ -34,6 +34,7 @@ std::vector<double> Jacobi::StartSolver(QSMatrix<double> A, std::vector<double> 
             std::copy(resNew.begin(), resNew.end(), res.begin());
 
         normError = 0.0;
+#pragma omp parallel for reduction(+:normError) schedule(dynamic, 8)
         for (int i = 0; i < F.size(); i++)
         {
             resNew[i] = F[i];
@@ -50,6 +51,7 @@ std::vector<double> Jacobi::StartSolver(QSMatrix<double> A, std::vector<double> 
         Iter++;
 
     } while (Iter < MaxIter && normError > Eps);
+
     return res;
 }
 

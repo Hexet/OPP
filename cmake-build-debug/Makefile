@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /cygdrive/c/Projects/thread_web_server/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/cygdrive/c/Users/Admin/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/cygdrive/c/Users/Admin/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -123,32 +123,32 @@ thread_web_server/fast:
 	$(MAKE) -f CMakeFiles/thread_web_server.dir/build.make CMakeFiles/thread_web_server.dir/build
 .PHONY : thread_web_server/fast
 
-OpenMP_1.o: OpenMP_1.cpp.o
+MPI.o: MPI.cpp.o
 
-.PHONY : OpenMP_1.o
+.PHONY : MPI.o
 
 # target to build an object file
-OpenMP_1.cpp.o:
-	$(MAKE) -f CMakeFiles/thread_web_server.dir/build.make CMakeFiles/thread_web_server.dir/OpenMP_1.cpp.o
-.PHONY : OpenMP_1.cpp.o
+MPI.cpp.o:
+	$(MAKE) -f CMakeFiles/thread_web_server.dir/build.make CMakeFiles/thread_web_server.dir/MPI.cpp.o
+.PHONY : MPI.cpp.o
 
-OpenMP_1.i: OpenMP_1.cpp.i
+MPI.i: MPI.cpp.i
 
-.PHONY : OpenMP_1.i
+.PHONY : MPI.i
 
 # target to preprocess a source file
-OpenMP_1.cpp.i:
-	$(MAKE) -f CMakeFiles/thread_web_server.dir/build.make CMakeFiles/thread_web_server.dir/OpenMP_1.cpp.i
-.PHONY : OpenMP_1.cpp.i
+MPI.cpp.i:
+	$(MAKE) -f CMakeFiles/thread_web_server.dir/build.make CMakeFiles/thread_web_server.dir/MPI.cpp.i
+.PHONY : MPI.cpp.i
 
-OpenMP_1.s: OpenMP_1.cpp.s
+MPI.s: MPI.cpp.s
 
-.PHONY : OpenMP_1.s
+.PHONY : MPI.s
 
 # target to generate assembly for a file
-OpenMP_1.cpp.s:
-	$(MAKE) -f CMakeFiles/thread_web_server.dir/build.make CMakeFiles/thread_web_server.dir/OpenMP_1.cpp.s
-.PHONY : OpenMP_1.cpp.s
+MPI.cpp.s:
+	$(MAKE) -f CMakeFiles/thread_web_server.dir/build.make CMakeFiles/thread_web_server.dir/MPI.cpp.s
+.PHONY : MPI.cpp.s
 
 # Help Target
 help:
@@ -156,12 +156,12 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... thread_web_server"
-	@echo "... edit_cache"
-	@echo "... OpenMP_1.o"
-	@echo "... OpenMP_1.i"
-	@echo "... OpenMP_1.s"
+	@echo "... MPI.o"
+	@echo "... MPI.i"
+	@echo "... MPI.s"
 .PHONY : help
 
 
